@@ -1,8 +1,10 @@
 <template>
   <div>
-    <div class="eleline"></div>
+主粮  <br><br>
+    主粮  <br><br>
+    主粮  <br><br>
+    主粮  <br><br>
   </div>
-
 </template>
 
 <script>
@@ -10,8 +12,5 @@
 </script>
 
 <style lang="stylus" rel="stylesheet/stylus">
-  .eleline
-    width 100%
-    height 10px
-    background-color #F3F4F5
+
 </style>
