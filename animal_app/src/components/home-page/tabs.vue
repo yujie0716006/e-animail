@@ -31,7 +31,8 @@
         //        这是创建的tabs的滚动条实例
         new BScroll(this.$refs.tabs,{
           scrollX:true,
-          click:true
+          click:true,
+          scrollY:false
         });
       })
     }
