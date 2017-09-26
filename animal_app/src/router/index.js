@@ -11,6 +11,9 @@ import RiChu from "../components/home-page/richuwaiyong.vue"
 import MeiRong from "../components/home-page/meirongxiangbo.vue"
 import Home from "../components/home-page/home.vue"
 import Login from "../components/center/login.vue"
+import Cat from "../components/cat/cat.vue"
+import Fish from "../components/fish/fish.vue"
+import CatOrDog from "../components/home-page/carordog.vue"
 
 Vue.use(Router);
 
@@ -73,6 +76,19 @@ export default new Router({
     {
       path:"/login",
       component:Login
-    }
+    },
+  //  这是显示的狗狗站，猫猫站的路由
+    {
+      path:"/cat",
+      component:Cat
+    },
+    {
+      path:"/fish",
+      component:Fish
+    },
+    {
+      path:"/carordog",
+      component:CatOrDog
+    },
   ]
 })

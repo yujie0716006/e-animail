@@ -3,11 +3,11 @@
     <eleHeader></eleHeader>
     <div id="header-bottom">
       <div class="search">
-        <router-link to="/#">
+        <router-link to="/carordog">
           <span>狗狗站</span>
         </router-link>
         <span>|</span>
-        <router-link to="/#" class="citys">
+        <router-link to="/carordog" class="citys">
           <span>重庆</span>
           <span>^</span>
         </router-link>
