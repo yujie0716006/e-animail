@@ -1,12 +1,6 @@
 <template>
   <div>
-  shopCart
-    variety <br><br>
-    variety <br><br>
-    variety <br><br>
-    variety <br><br>
-    variety <br><br>
-    xxxxxxxxxxxxxxxxxx <br>
+  购物车 啊
   </div>
 </template>
 

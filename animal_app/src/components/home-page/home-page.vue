@@ -15,7 +15,7 @@
           <input type="search" placeholder="搜索商品和品牌" class="inputSearch">
           <span class="search-ico"></span>
         </router-link>
-        <router-link to="/#">
+        <router-link to="/center">
           <span class="mydope">
              <img src="../image/mydope.png" alt="0">
           </span>

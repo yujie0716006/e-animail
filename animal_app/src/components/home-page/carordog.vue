@@ -7,27 +7,33 @@
   </div>
   <Split></Split>
   <div class="more" v-show="isOpen">
-    <router-link to="#">
+    <router-link to="/homepage/home">
       <img src="../image/head_icon1.png" alt="0">
       <p>首页</p>
     </router-link>
-    <router-link to="#">
+    <router-link to="/variety">
       <img src="../image/head_icon2.png" alt="0">
       <p>商品分类</p>
     </router-link>
-    <router-link to="#">
+    <router-link to="/shopCart">
       <img src="../image/head_icon4.png" alt="0">
       <p>购物车</p>
     </router-link>
-    <router-link to="#">
+    <router-link to="/center">
       <img src="../image/head_icon5.png" alt="0">
       <p>我的e宠</p>
     </router-link>
   </div>
   <div class="buttons">
-    <mt-button type="default" class="cats button">猫猫站</mt-button>
-    <mt-button type="default" class="dogs button">狗狗站</mt-button>
-    <mt-button type="default" class="fishes button">水族站</mt-button>
+    <router-link to="/cat">
+      <mt-button type="default" class="cats button">猫猫站</mt-button>
+    </router-link>
+    <router-link to="/homepage/home">
+      <mt-button type="default" class="dogs button">狗狗站</mt-button>
+    </router-link>
+    <router-link to="/fish">
+      <mt-button type="default" class="fishes button">水族站</mt-button>
+    </router-link>
   </div>
   <div class="choose">
 

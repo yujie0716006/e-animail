@@ -14,7 +14,7 @@
         <i class="angle2" v-show="register==2 ? true : false "></i>
       </div>
     </div>
-    <ul class="centerLogin" v-show="register==1 ? true : false">
+    <ul class="centerLogin" v-show="register==1">
       <li class="name">
         <span class="nameImg"></span>
         <input type="text" placeholder="手机号/邮箱/用户名"/>
@@ -26,7 +26,7 @@
         <div class="centerLine"></div>
       </li>
     </ul>
-    <ul class="centerLogin" v-show="register==2 ? true : false">
+    <ul class="centerLogin" v-show="register==2">
       <li class="name">
         <span class="nameImg"></span>
         <input type="number" placeholder="已注册的手机号"/>
@@ -81,7 +81,7 @@
     },
     methods: {
       changeRegister(register){
-        return this.register=register;   //表示触发事件是传递的值赋值到状态上面
+        this.register=register;   //表示触发事件是传递的值赋值到状态上面
       }
     }
   }

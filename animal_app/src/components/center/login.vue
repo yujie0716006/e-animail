@@ -208,6 +208,5 @@ export default {
   .name-enter-active
     transition transform 0.3s
   .name-enter-to
-    position absolute
-    top 0
+    transform translateY(160px)
 </style>
